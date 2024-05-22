@@ -1,0 +1,25 @@
+.feed{
+    flex:0.6;
+    border-right: 1px solid var(--twitter-color);
+    min-width: fit-content;
+    overflow-y: scroll;
+}
+.feed___header{
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 100;
+    border-right: 1px solid var(--twitter-color);
+
+
+}
+
+.feed::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .feed {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
